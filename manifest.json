@@ -1,0 +1,26 @@
+{
+  "name": "Wiki Clipboard",
+  "version": "0.1",
+  "description": "Creates a running history of viewed Wikipedia pages",
+  "permissions":["storage","declarativeContent","activeTab", "tabs"],
+  "background": {
+    "scripts":["background.js"],
+    "persistent": false 
+  },
+  "page_action":{
+    "default_popup":"popupmenu.html",
+    "default_icon": {
+      "16": "images/image.png",
+      "32": "images/image.png",
+      "48": "images/image.png",
+      "128": "images/image.png"
+    }
+  },
+  "icons": {
+    "16": "images/image.png",
+    "32": "images/image.png",
+    "48": "images/image.png",
+    "128": "images/image.png"
+  },
+  "manifest_version": 2
+}

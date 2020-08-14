@@ -1,0 +1,17 @@
+button {
+    height: 75px;
+    width: 75px;
+    outline: none;
+  }
+
+.row
+{
+    display: flex;
+}
+.column
+{
+    width: 100px;
+    outline: none;
+    color: #444;
+    margin-right: 5px;
+}
